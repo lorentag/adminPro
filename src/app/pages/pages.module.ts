@@ -22,6 +22,8 @@ import { PAGES_ROUTES } from './pages.routes';
 // Temp
 import { IncrementComponent } from '../components/increment/increment.component';
 import { DonaGraphicsComponent } from '../components/dona-graphics/dona-graphics.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { DonaGraphicsComponent } from '../components/dona-graphics/dona-graphics
         PagesComponent,
         IncrementComponent,
         DonaGraphicsComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,
