@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 // Modules
 import { PagesModule } from './pages/pages.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 // Routes
 import { appRouting } from './app.routes';
@@ -27,6 +27,7 @@ import { ServiceModule } from './services/service.module';
     BrowserModule,
     PagesModule,
     FormsModule,
+    ReactiveFormsModule,
     ServiceModule,
     appRouting
   ],
