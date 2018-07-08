@@ -17,6 +17,7 @@ import { RegisterComponent } from './login/register.component';
 // services
 import { ServiceModule } from './services/service.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
